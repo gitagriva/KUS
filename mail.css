@@ -4,12 +4,18 @@ html, body{
 
 .left{
 /* Rectangle 1 */
-    position: absolute;
     width: 601px;
     height: 1024px;
     left: 0px;
     top: 0px;
     background: linear-gradient(180deg, #0084F8 0%, #00C6FF 100%);
+}
+
+.right{
+    position: relative;
+    width: 1202px;
+    height: 1024px;
+   background:background: #FFFFFF; ;
 }
 
 .grupa1{
@@ -68,7 +74,6 @@ html, body{
 }
 
 .grupa2{
-    position:absolute;
     margin-top: 5vh;
     width: 634px;
     height: 366px;
@@ -126,12 +131,6 @@ html, body{
  }
 
  .poga3{
-    position: absolute;
-    width: 143px;
-    height: 35px;
-    left: 24px;
-    top: calc(50% - 35px/2 + 0.5px);
-
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -141,7 +140,11 @@ html, body{
     align-items: center;
     /* primary/white */
     color: #FFFFFF;
-    background:#0084F8
- }
+    background: #FF8576;
+    border: 1px solid #FF8576;
+    bottom: 2vh;
+    right: 2vw:
 
  }
+
+ 
